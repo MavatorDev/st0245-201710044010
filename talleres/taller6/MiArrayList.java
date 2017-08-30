@@ -2,7 +2,7 @@
 import java.util.Arrays;
 public class MiArrayList {
         private int size;
-        private static final int DEFAULT_CAPACITY = 2;
+        private static final int DEFAULT_CAPACITY = 10;
         private int elements[];
           // Inicializa los atributos size en cero y elements como un arreglo de tamaño  DEFAULT_CAPACITY. No, no recibe parámetros.
         public MiArrayList() {
@@ -11,13 +11,10 @@ public class MiArrayList {
        
         }
 
-          // Retorna el tamaño de la lista
-        public int size() {
+               public int size() {
            return size;
         }
-
-        
-          // Agrega un elemento e a la última posición de la lista
+                
         public void add(int e) {
             if(size<elements.length){
                 elements[size] = e;
@@ -27,18 +24,11 @@ public class MiArrayList {
             }
             size++;
         }
-
         
-          // Agrega un elemento e a la última posición de la lista
-        
-
-          // Retorna el elemento que se encuentra en la posición i de la lista
         public int get(int i) {
            return elements[i];
         }
-
-          // Agrega un elemento e en la posición index de la lista
-          
+         
          public void add(int index, int e) {
              if(size< elements.length-1){
                   if(size>=index){
@@ -59,8 +49,7 @@ public class MiArrayList {
                 }
             size=size+1;
         }
-         
-        
+                 
         public void agrandar(int index, int e){
              
              int elements2[]=new int [(elements.length *2) ];
@@ -73,3 +62,5 @@ public class MiArrayList {
 
 
     }
+    
+    //REALIZADO POR: MANUELA VALENCIA TORO
