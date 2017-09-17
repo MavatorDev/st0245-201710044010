@@ -1,6 +1,8 @@
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
+/*
+ * Realizado por: Manuela Valencia Toro
+ */
 /**
  * Realizado por: Manuela Valencia Toro
  */
