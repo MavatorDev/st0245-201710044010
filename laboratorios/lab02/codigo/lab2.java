@@ -8,7 +8,7 @@
 
 import java.util.*;
 import java.util.concurrent.TimeUnit;
-public class lab2
+public class Laboratory1
 {
  /**
   * Este algoritmo caicula la suma de los elementos de un arreglo, secibe un arreglo y retorna la suma de sus elementos.
