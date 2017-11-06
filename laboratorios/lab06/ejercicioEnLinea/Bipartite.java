@@ -1,4 +1,4 @@
-7.	class Bipartite
+	class Bipartite
 {
    static int V=-1;    
     public static void recibir(){
